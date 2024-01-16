@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+}
+.banner-section {
+  background-repeat: no-repeat;
+  width: 1150px;
+  height: 500px;
+  margin: 0 auto;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("./Images/Group 13 (1) (1).png");
+    border-radius: 15px;
+}
+.banner-heading {
+  align-items: center;
+
+}
+.banner-heading h1 {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 64px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 20px;
+ 
+}
+.banner-heading p {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 26px;
+  font-weight: 400;
+  
+}
+.banner-selection {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.loc {
+  color: rgba(19, 19, 24, 0.5);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 0px 16px 16px;
+  border-radius: 7px;
+  border: none;
+  width: 155px;
+  margin: 10px;
+}
+#time {
+  color: rgba(19, 19, 24, 0.5);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 16px 16px 16px;
+  border-radius: 7px;
+  border: none;
+  width: 170px;
+  margin: 10px;
+}
+#packet {
+  color: rgba(19, 19, 24, 0.5);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 0px 16px 16px;
+  border-radius: 7px;
+  border: none;
+  width: 170px;
+  margin: 10px;
+}
+.finding {
+  width: 170px;
+  height: 50px;
+  border-radius: 7px;
+  background: #ff5400;
+  border: none;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px;
+}
