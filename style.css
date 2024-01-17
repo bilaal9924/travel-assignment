@@ -15,11 +15,10 @@ header {
       rgba(19, 19, 24, 0) 100%
     ),
     url("./Images/Group 13 (1) (1).png");
-    border-radius: 15px;
+  border-radius: 15px;
 }
 .banner-heading {
   align-items: center;
-
 }
 .banner-heading h1 {
   color: #fff;
@@ -29,7 +28,6 @@ header {
   text-align: center;
   padding-top: 100px;
   margin-bottom: 20px;
- 
 }
 .banner-heading p {
   color: #fff;
@@ -37,13 +35,11 @@ header {
   font-family: Mulish;
   font-size: 26px;
   font-weight: 400;
-  
 }
 .banner-selection {
   text-align: center;
   display: flex;
   justify-content: center;
- 
 }
 
 .loc {
@@ -90,4 +86,143 @@ header {
   font-size: 16px;
   font-weight: 700;
   margin: 10px;
+}
+.main-section {
+  width: 1150px;
+  height: 600px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.main-right {
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 16px;
+}
+.main-left h2 {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+}
+.main-left p {
+  margin-top: 50px;
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.aro-btn {
+  margin-top: 20px;
+  background-color: #ff5400;
+  border-radius: 7px;
+  border: none;
+  width: 170px;
+  height: 50px;
+  font-size: 22px;
+  color: #fff;
+}
+.section-dui {
+  width: 1150px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.image-header {
+  margin-bottom: 30px;
+}
+.pics {
+}
+.section3 {
+  width: 1150px;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-top: 50px;
+}
+.section-three-header {
+  text-align: center;
+}
+.section-three-header h2 {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+}
+.double-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.hotel {
+  width: 560px;
+  height: 250px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0);
+}
+.hotel h4 {
+  color: #131318;
+
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 10px;
+}
+.hotel p {
+  padding: 10px;
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.services {
+  width: 560px;
+  height: 250px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.services h4 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 10px;
+}
+.services p {
+  padding: 10px;
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.price-sct {
+  width: 550px;
+  height: 250px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.price-sct h2 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 10px;
+}
+.price-sct p {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 10px;
 }

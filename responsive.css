@@ -4,13 +4,14 @@
         max-width: 100%;
     }
     .banner-section{
+        margin: 0 auto;
         background: linear-gradient(
             180deg,
             rgba(19, 19, 24, 0.8) 0%,
             rgba(19, 19, 24, 0) 100%
           ),
           url('./Images/Group 13 (1) (1) - Copy.png');
-        max-width: 100%}
+        max-width: 100%;}
     .banner-heading{
         max-width: 100%;
        
@@ -34,4 +35,19 @@
     .loc{
 
     }
+    .main-section{
+        max-width: 100%;
+        flex-direction: column;
+        height: auto;
+        
+    }
+    .main-left{
+        order: 2;
+    }
+    .main-right img{
+       order: 1;
+       max-width: 100%;
+       
+}
+
 }
