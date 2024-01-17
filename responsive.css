@@ -208,6 +208,9 @@
         max-width: 540px;
         
       }
+      .dass{
+        display: none;
+      }
       .section3 {
         width: 550px;
         margin: 0 auto;
