@@ -228,9 +228,9 @@ header {
 .section-subs {
   width: 1150px;
   margin: 0 auto;
-  
   display: flex;
   margin-top: 60px;
+  position: relative;
 }
 .news-letter {
   width: 390px;
@@ -238,7 +238,6 @@ header {
   border-radius: 16px;
   border: 1px solid #ff5400;
   padding: 40px;
-  
 }
 .news-letter h3 {
   color: #131318;
@@ -285,9 +284,32 @@ header {
   text-align: center;
   align-items: center;
   margin-left: 10px;
-  
 }
-.subs-pic img{
+.subs-pic img {
   max-width: 100;
 }
-
+.offer-tag {
+  border-radius: 16px;
+  background: #ff5400;
+  width: 200px;
+  height: 70px;
+  transform: rotate(-19.628deg);
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  
+}
+.offer-tag p {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.offer-tag span {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 22px;
+  font-weight: 600;
+}
